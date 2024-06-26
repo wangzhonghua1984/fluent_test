@@ -358,6 +358,7 @@
       application "Artifactory" 
     </record>
   </filter>
+  # test fetch !!!
   # TEST OUTPUT
   #<match **>
   #  @type stdout
