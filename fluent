@@ -353,10 +353,12 @@
     <record>
       hostname "#{Socket.gethostname}"
       log_source ${tag}
+      group "QA"
+      department "SysEngAP"
+      application "Artifactory" 
     </record>
   </filter>
   # TEST OUTPUT
-  # ###################################################################################
   #<match **>
   #  @type stdout
   #</match>
